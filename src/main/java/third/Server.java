@@ -107,7 +107,12 @@ public class Server {
 
         @Override
         public void failed(Throwable exc, Object attachment) {
-
+            //  处理错误
         }
+    }
+
+    public static void main(String[] args) {
+        Server server = new Server();
+        server.start();
     }
 }
