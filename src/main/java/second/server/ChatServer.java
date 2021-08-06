@@ -1,7 +1,6 @@
-package server;
+package second.server;
 
 
-import javax.xml.bind.annotation.XmlType;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;

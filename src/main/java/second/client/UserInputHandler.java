@@ -1,4 +1,4 @@
-package client;
+package second.client;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,6 +17,7 @@ public class UserInputHandler  implements Runnable{
     public UserInputHandler(ChatClient chatClient) {
         this.chatClient = chatClient;
     }
+
 
     @Override
     public void run() {

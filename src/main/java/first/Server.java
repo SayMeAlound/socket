@@ -1,9 +1,11 @@
+package first;
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * @Classname Client
+ * @Classname simple.Client
  * @Description TODO
  * @Date 2021/08/05 00:59
  * @Created by zhaomo
